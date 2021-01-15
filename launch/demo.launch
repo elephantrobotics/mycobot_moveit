@@ -30,6 +30,7 @@
   <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
     <param name="use_gui" value="$(arg use_gui)"/>
     <rosparam param="source_list">[move_group/fake_controller_joint_states]</rosparam>
+    <!-- <rosparam param="source_list">[/joint_states]</rosparam> -->
   </node>
 
   <!-- Given the published joint states, publish tf for the robot links -->
@@ -45,6 +46,7 @@
 
   <!-- Run Rviz and load the default config to see the state of the move_group node -->
   <include file="$(find mycobot_moveit)/launch/moveit_rviz.launch">
+    <!-- <arg name="config" value="false"/> -->
     <arg name="config" value="true"/>
     <arg name="debug" value="$(arg debug)"/>
   </include>

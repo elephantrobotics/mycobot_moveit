@@ -7,7 +7,7 @@ find_package(catkin REQUIRED
 )
 
 catkin_package(
-	INCLUDE_DIRS include
+
 	CATKIN_DEPENDS actionlib moveit_msgs
 )
 

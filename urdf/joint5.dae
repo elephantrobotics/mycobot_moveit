@@ -1,13 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
   <asset>
-    <contributor>
-      <author />
-      <authoring_tool>Rhinoceros</authoring_tool>
-      <comments>Output from Rhinoceros COLLADA Exporter</comments>
-      <copyright />
-      <source_data />
-    </contributor>
+    
     <created>2020-12-16T12:09:13Z</created>
     <modified>2020-12-16T12:09:13Z</modified>
     <unit meter="0.001" name="millimeters" />
